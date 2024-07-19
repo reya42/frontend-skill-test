@@ -1,0 +1,61 @@
+.patient_detail
+{
+    margin: 1rem 1.125%;
+    width: 100%;
+    background-color: white;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.patient_detail img.profile_image
+{
+    margin-top: 2rem;
+    width: 200px;
+    height: 200px;
+}
+.patient_detail .name
+{
+    color: #072635;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.patient_detail .details
+{
+    display: inline;
+    width: 90%;
+    margin: 0rem 5%;
+}
+.patient_detail .single_detail
+{
+    display: flex;
+    margin-top: 2rem;
+}
+.patient_detail .single_detail .circle
+.patient_detail .single_detail .circle img
+{
+    width: 42px;
+    height: 42px;
+}
+.patient_detail .single_detail .data_container
+{
+    margin-left: 1rem;
+}
+.patient_detail .single_detail .data_container .value
+{
+    font-weight: bold;
+}
+.patient_detail button
+{
+    background-color: #01F0D0;
+    border-radius: 41px;
+    padding: 0.5rem 2rem;
+    margin: 1rem;
+    font-size: 14px;
+    font:inherit;
+    font-weight: bold;
+    border-color: transparent;
+    cursor: pointer;
+}

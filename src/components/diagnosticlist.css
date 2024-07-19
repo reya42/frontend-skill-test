@@ -1,0 +1,59 @@
+.diagnostic_list
+{
+    height: 335px;
+    border-radius: 16px;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+.diagnostic_list div.diagnostic_title
+{
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #072635;
+}
+.single_diagnostic
+{
+    margin: 1rem;
+    display: flex;
+    transition: all ease-in-out;
+    transition-duration: 0.25s;
+}
+.single_diagnostic:hover
+{
+    background-color: #F6F7F8;
+}
+.single_diagnostic.title
+{
+    background-color: #F6F7F8;
+    border-radius: 24px;
+}
+.single_diagnostic div
+{
+    width: 50%;
+    margin: 0rem 1rem;
+    padding: 1rem 0rem;
+}
+.single_diagnostic .name,
+.single_diagnostic .status
+{
+    width: 25%;
+}
+.single_diagnostic.title div
+{
+    font-weight: bold;
+}
+.diagnostic_list .list_container
+{
+    overflow-y: auto;
+    height: 265px;
+}
+.diagnostic_list ::-webkit-scrollbar
+{
+    width: 6px;
+}
+.diagnostic_list ::-webkit-scrollbar-thumb
+{
+    background: #072635;
+    border-radius: 3px;
+}

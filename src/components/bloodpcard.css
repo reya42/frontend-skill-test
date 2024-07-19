@@ -1,0 +1,41 @@
+.blood_p_card .title
+{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0px !important;
+    margin-top: 1rem !important;
+}
+.blood_p_card .title .circle
+{
+    width: 14px;
+    height: 14px;
+    border-radius: 14px;
+}
+.blood_p_card .title h3
+{
+    margin-left: .5rem;
+    font-weight: bold;
+    font-size: 14px;
+}
+.blood_p_card .value
+{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: .4rem;
+}
+.blood_p_card .on_avarage
+{
+    display: flex;
+}
+.blood_p_card .on_avarage h3
+{
+    margin: 0px !important;
+    margin-left: 1rem !important;
+    font-weight: normal;
+    font-size: 14px;
+}
+.blood_p_card .on_avarage h3.normal
+{
+    margin-left: 0rem !important;
+}
